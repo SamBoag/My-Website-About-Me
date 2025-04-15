@@ -1,0 +1,70 @@
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: "Ubuntu";
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+.backgroundimg {
+ min-width: 100vw;
+ max-height: 100vh;
+ z-index: -1;
+ position: absolute;
+ margin: 0%;
+ padding: 0%;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    font-size: 70px;
+    font-weight: 400;
+  }
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    text-align: center;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 300px;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+span {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}

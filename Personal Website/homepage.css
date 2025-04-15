@@ -1,0 +1,143 @@
+
+body {
+    overflow: hidden;
+    margin: 0%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Ubuntu";
+}
+
+.column-1 {
+    float: left;
+    width: 50%;
+    height: 100vh;
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.column-1:hover {
+    transform: scale(1.1);
+}
+
+.column-2 {
+    float: right;
+    width: 50%;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.astronaut {
+    width: 20vw;
+    height: 20vw;
+    margin-top: 15%;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.background {
+    z-index: -1;
+    position: absolute;
+    vertical-align: top;
+    height: 100%;
+    max-width: 50%;
+    left: 50%;
+}
+
+.container {
+    padding: 50px;
+    position: relative;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 100;
+    width: 90%;
+    padding-left: 100px;
+    padding-right: 1px;
+    line-height: 38px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.container:hover {
+    transform: scale(1.1);
+}
+
+.container h2 {
+    position: relative;
+    color: white;
+    text-align: left;
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.name h3 {
+    font-size: 40px;
+    color: #1c3f60;
+    margin-bottom: 10px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.column-1 p {
+    margin-top: 1px;
+    font-size: 25px;
+    color: #9bb2d1;
+}
+
+.button-1 {
+    background-color: #1c3f60;
+    color: white;
+    font-size: 11px;
+    padding: 5px 38px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    line-height: 20px;
+}
+
+.button-2 {
+    background-color: #1c3f60;
+    color: white;
+    font-size: 10px;
+    padding: 5px 43px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    line-height: 28px;
+}
+
+.button-3 {
+    background-color: #1c3f60;
+    color: white;
+    font-size: 10px;
+    padding: 5px 55px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    margin-left: 120px;
+    margin-top: 30px;
+    line-height: 28px;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
